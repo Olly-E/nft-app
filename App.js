@@ -19,7 +19,7 @@ const theme = {
 
 export default function App() {
 
-  LogBox.ignoreLogs(['Remote debugger']);
+  // LogBox.ignoreLogs(['Remote debugger']);
 
   const [loaded] = useFonts({
     InterBold: require('./assets/fonts/Inter-Bold.ttf'),
